@@ -1,0 +1,92 @@
+.enroll {
+    background-color: var(--clr-gray600);
+}
+
+.enroll .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 28px 16px;
+}
+
+.enroll__title {
+    text-align: center;
+    font-size: var(--text-2xl);
+    color: var(--clr-gray300);
+}
+
+.enroll__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.enroll__form .enroll__email {
+    min-width: 505px;
+    padding: 12px;
+    background-color: #fff;
+    border-radius: 10px;
+    font-size: 14px;
+    border: none;
+}
+
+
+.enroll__form .enroll__email:focus {
+    outline: var(--clr-gray800) solid 3px;
+    font-weight: 600;
+}
+
+.enroll__form .btn {
+    background-color: var(--clr-yellow);
+    cursor: pointer;
+}
+
+/* 2xl */
+/* @media (max-width: 1536px) {
+} */
+
+/* xl */
+/* @media (max-width: 1280px) {
+} */
+
+/* lg */
+/* @media (max-width: 1024px) {
+} */
+
+/* md */
+@media (max-width: 768px) {
+    .enroll__form .enroll__email {
+        min-width: 305px;
+    }
+}
+
+/* sm */
+@media (max-width: 640px) {
+    .enroll__form {
+        flex-direction: column;
+        width: 100%;
+    }
+    .enroll .container {
+        gap: 20px;
+    }
+    .enroll__form .enroll__email {
+        width: 100%;
+    }
+    .enroll__form .enroll__email:focus {
+        outline: var(--clr-gray800) solid 3px;
+        font-weight: 600;
+    }
+    .enroll__form .btn {
+        background-color: var(--clr-yellow);
+        cursor: pointer;
+        padding: 8px 24px;
+    }
+    .enroll__title {
+        font-size: var(--text-xl);
+    }
+}
+
+/* xs */
+/* @media (max-width: 475px) {
+} *

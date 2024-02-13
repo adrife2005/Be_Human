@@ -1,0 +1,48 @@
+.location .container {
+  width: 1600px;
+}
+
+.location__title {
+  text-align: center;
+  font-size: var(--text-4xl);
+  color: var(--clr-gray300);
+}
+
+.location__map {
+  margin-top: 5rem;
+}
+
+.location__map iframe {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .location .container {
+    width: 1300px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .location .container {
+    width: 1000px;
+  }
+}
+
+/* lg */
+/* @media (max-width: 1024px) {
+} */
+
+/* md */
+/* @media (max-width: 768px) {
+} */
+
+/* sm */
+/* @media (max-width: 640px) {
+} */
+
+/* xs */
+/* @media (max-width: 475px) {
+} */

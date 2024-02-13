@@ -1,0 +1,146 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  line-height: calc(1em + 0.5rem);
+}
+
+:root {
+  /* colors */
+  --bg-color: #030712;
+  --header-color: #040916;
+  --sidebar-color: #111827;
+  --clr-default: #f3f4f6;
+  --clr-gray300: #d1d5db;
+  --clr-gray400: #9ca3af;
+  --clr-gray500: #6b7280;
+  --clr-gray600: #4b5563;
+  --clr-gray700: #374151;
+  --clr-gray800: #1f2937;
+  --clr-yellow: #ca8a04;
+
+  /* sizes */
+  --text-xss: 0.5rem;
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.125rem;
+  --text-xl: 1.25rem;
+  --text-2xl: 1.5rem;
+  --text-3xl: 1.875rem;
+  --text-4xl: 2.25rem;
+  --text-5xl: 3rem;
+  --text-6xl: 3.75rem;
+  --text-7xl: 4.5rem;
+  --text-8xl: 6rem;
+  --text-9xl: 8rem;
+  --text-10xl: 10rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: var(--bg-color);
+  color: var(--clr-default);
+  overflow-x: hidden;
+}
+
+/* Defaults styles */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+i {
+  font-size: 1em;
+  cursor: pointer;
+  color: var(--clr-default);
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  display: inline-block;
+  padding: none;
+  border: none;
+  background: none;
+  cursor: pointer;
+  color: inherit;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+.section {
+  margin-top: 10rem;
+}
+
+/* media querys > desktop */
+
+.container {
+  max-width: 1800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+
+/* 2xl */
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+/* xl */
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1240px;
+  }
+}
+
+/* lg */
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+/* md */
+@media (max-width: 768px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+/* sm */
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
+}
+
+/* xs */
+@media (max-width: 475px) {
+  .container {
+    max-width: 100%;
+  }
+}
