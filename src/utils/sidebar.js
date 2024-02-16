@@ -25,29 +25,29 @@ sidebar__toggle.addEventListener("click", () => {
   hero.classList.remove("opacity");
 });
 
-navbar__menu.addEventListener("keydown", (e) => {
-  // Key
-  // if (e.key === "Enter") {
-  //   alert("1");
-  // }
+// navbar__menu.addEventListener("keydown", (e) => {
+//   // Key
+//   // if (e.key === "Enter") {
+//   //   alert("1");
+//   // }
 
-  // KeyCode
-  // if (e.keyCode === 13) {
-  //   alert(1);
-  // }
+//   // KeyCode
+//   // if (e.keyCode === 13) {
+//   //   alert(1);
+//   // }
 
-  // code
-  if (e.code === "Escape") {
-    sidebar.classList.remove("open");
-    bg__opacity.classList.remove("open");
-    hero.classList.remove("opacity");
-  }
-});
+//   // code
+//   if (e.code === "Escape") {
+//     sidebar.classList.remove("open");
+//     bg__opacity.classList.remove("open");
+//     hero.classList.remove("opacity");
+//   }
+// });
 
-document.addEventListener("wheel", (e) => {
-  if (e.deltaY === -100) {
-    navbar.classList.add("sticky");
-  } else {
-    navbar.classList.remove("sticky");
-  }
-});
+// document.addEventListener("wheel", (e) => {
+//   if (e.deltaY === -100) {
+//     navbar.classList.add("sticky");
+//   } else {
+//     navbar.classList.remove("sticky");
+//   }
+// });
