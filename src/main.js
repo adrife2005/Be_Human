@@ -8,9 +8,9 @@ import "../css/components/equipment.css";
 import "../css/components/staff.css";
 import "../css/components/location.css";
 import "../css/components/enroll.css";
-import "../css/components/footer.css";
 import "../css/utils.css";
 
 import "./utils/sidebar";
 import "./utils/carousel";
 import "./utils/staffCarousel";
+import "../css/components/footer.css";
