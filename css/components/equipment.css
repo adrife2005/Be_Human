@@ -44,10 +44,11 @@
 /* md */
 @media (max-width: 768px) {
   .equipment__carrusel {
-    margin-top: 2rem;
+    margin-top: 2.5rem;
     border-radius: 1rem;
   }
   .equipment__carrusel img {
+    height: 100%;
     object-fit: cover;
     object-position: center;
   }
@@ -77,8 +78,7 @@
 /* xs */
 @media (max-width: 475px) {
   .equipment__carrusel img {
-    object-fit: cover;
-    height: 100%;
+    object-fit: contain;
     object-position: center;
   }
 }
