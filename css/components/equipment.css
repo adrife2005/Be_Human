@@ -44,7 +44,7 @@
 /* md */
 @media (max-width: 768px) {
   .equipment__carrusel {
-    margin-top: 5rem;
+    margin-top: 2rem;
     border-radius: 1rem;
   }
   .equipment__carrusel img {
@@ -77,7 +77,7 @@
 /* xs */
 @media (max-width: 475px) {
   .equipment__carrusel img {
-    object-fit: contain;
+    object-fit: cover;
     height: 100%;
     object-position: center;
   }
