@@ -90,12 +90,12 @@
   color: var(--clr-gray300);
 }
 
-.foooter__conditions {
+.footer__conditions {
   padding: 30px 0;
   border-bottom: 1px solid var(--clr-default);
 }
 
-.foooter__conditions div {
+.footer__conditions div {
   font-size: var(--text-sm);
   line-height: 2;
 }

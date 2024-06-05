@@ -27,7 +27,7 @@
 } */
 
 .hero__video {
-  background-image: url("../../public/be_build1.jpg");
+  background-image: url('/be_build1.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,7 +79,7 @@
   } */
 
   .hero__video {
-    background-image: url("../../public/be_build2.jpg");
+    background-image: url('/be_build2.jpg');
     background-position: center right -200px;
     background-repeat: no-repeat;
     background-size: cover;
