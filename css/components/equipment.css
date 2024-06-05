@@ -76,9 +76,5 @@
 } */
 
 /* xs */
-@media (max-width: 475px) {
-  .equipment__carrusel img {
-    object-fit: contain;
-    object-position: center;
-  }
-}
+/* @media (max-width: 475px) {
+} */
