@@ -16,7 +16,7 @@
 ::placeholder {
   color: var(--clr-gray500);
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .btn {

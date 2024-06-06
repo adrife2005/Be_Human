@@ -1,5 +1,7 @@
 .be {
   padding: 1rem 0;
+  box-shadow: 0 2px 10px 1px var(--sidebar-color);
+  margin-bottom: 10px;
 }
 
 .sticky {
